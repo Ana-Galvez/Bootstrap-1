@@ -1,0 +1,74 @@
+/* Variables */
+:root{
+  --first-color:rgb(217,0,98);
+  --first-alpha-color:rgba(217,0,98,0.75);
+  --second-color:rgb(20,25,45);
+  --second-alpha-color:rgba(20,25,45,0.75);
+  --third-color:rgb(80,20,100);
+  --third-alpha-color:rgba(80,20,100,0.75);
+
+  --link-color:rgb(80,158,227);
+  --link-alpha-color:rgba(80,158,227,0.75);
+
+  --bg-color:rgb(245,245,245);
+  --bg-alpha-color:rgba(245,245,245,0.75);
+}
+
+/* Reset */
+body{
+  font-family: "Raleway", sans-serif;
+}
+
+/* Bootstrap */
+.bg-dark{
+  background-color: var(--second-color) !important;
+}
+
+
+.navbar-brand img{
+  height:3rem;
+  width: auto;
+}
+
+.navbar-toggler-icon:hover{
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28217, 0, 98, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-item{
+  font-weight: bold;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+}
+
+
+.nav-item:hover, .dropdown-item:hover{
+
+  background-color: var(--first-alpha-color);
+}
+
+.nav-link, .dropdown-item{
+  margin-left: 0;
+  font-weight: bold;
+  color:var(--first-color);
+}
+.nav-item:hover{
+  padding-left: 10px;
+  border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  -o-border-radius: 5px !important;
+}
+
+/* Estilos propios */
+
+
+/* Medias queries */
+@media (min-width:996px) {
+  .nav-item:hover{
+    padding-left: 0;
+  }
+}
