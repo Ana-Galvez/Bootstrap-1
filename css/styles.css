@@ -24,6 +24,14 @@ body{
   background-color: var(--second-color) !important;
 }
 
+footer nav i:hover{
+  color:var(--first-alpha-color);
+}
+
+footer p a:hover{
+  color:var(--first-alpha-color);
+}
+
 .navbar-brand img{
   height:3rem;
   width: auto;
