@@ -71,7 +71,22 @@ footer p a:hover{
 
 
 /* Estilos propios */
+.bg-gradient-propio{
+  background: rgb(88,81,204);
+  background: linear-gradient(90deg, rgba(88,81,204,1) 0%, rgba(0,215,255,0.9612219887955182) 100%);
+}
 
+.bg-third-color{
+  background: var(--third-color);
+}
+
+.mas-detalle{
+  color:var(--third-color);
+}
+
+.mas-detalle:hover{
+  color:var(--first-alpha-color);
+}
 
 /* Medias queries */
 @media (min-width:996px) {
