@@ -103,11 +103,27 @@ footer p a:hover{
   width: 18rem;
 }
 
+.ancho-img{
+  min-width: 100%;
+}
+
+.img-fondo{
+  background-image: var(--bg-fondo);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:98%;
+
+}
+
 .solicitar{
   color:var(--link-color);
 }
 .solicitar:hover{
   color:var(--first-alpha-color);
+}
+
+.transparencia{
+  background-color: var(--bg-alpha-color);
 }
 /* Medias queries */
 @media (min-width:996px) {
