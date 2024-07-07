@@ -1,4 +1,5 @@
 ### Documentación
 - Sitio hecho con Bootstrap 5.3.3.
-- En principio el diseño cambia a los 996px.
+- Tiene diseño adaptable a diferentes tamaños.
 - Mismo header y footer para todas las páginas.
+- Uso de componentes de bootstrap (navbar, carrousel)
