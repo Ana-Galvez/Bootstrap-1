@@ -27,7 +27,7 @@
 
   <body>
     <header class="sticky-top">
-      <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+      <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark" role="navigation">
         <div class="container">
           <a class="navbar-brand" href="index.html"><img src="./img/bad-dog-studio-logo.png" alt="Logo bad dog" /></a>
           <button
@@ -41,11 +41,11 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-lg-auto">
-              <li class="nav-item">
+            <ul class="navbar-nav ms-lg-auto" role="list">
+              <li class="nav-item" role="listitem">
                 <a class="nav-link" href="index.html">Inicio</a>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown" role="listitem">
                 <a
                   class="nav-link dropdown-toggle"
                   href="sitios.html"
@@ -54,25 +54,25 @@
                   aria-expanded="false">
                   Sitios
                 </a>
-                <ul class="dropdown-menu">
-                  <li>
+                <ul class="dropdown-menu" role="list">
+                  <li role="listitem">
                     <a class="dropdown-item" href="sitios.html#ultimosproyectos">Últimos proyectos</a>
                   </li>
-                  <li>
+                  <li role="listitem">
                     <a class="dropdown-item" href="sitios.html#singlepage">SinglePage</a>
                   </li>
-                  <li>
+                  <li role="listitem">
                     <a class="dropdown-item" href="sitios.html#multipage">MultiPage</a>
                   </li>
                 </ul>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" role="listitem">
                 <a class="nav-link active" aria-current="page" href="clientes.html">Clientes</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" role="listitem">
                 <a class="nav-link" href="comencemos.html">Comencemos</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" role="listitem">
                 <a class="nav-link" href="contacto.html">¿Interesado?</a>
               </li>
             </ul>
@@ -84,7 +84,7 @@
       <section class="row g-0">
         <h1 class="text-center">Clientes & Colaboraciones</h1>
         <p class="text-center fs-5">Aquí hay una selección de clientes felices y hermosos proyectos</p>
-        <article class="col-12">
+        <article class="col-12" role="article">
           <!-- Modal -->
           <div class="modal fade" id="cliente-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -114,7 +114,7 @@
             </div>
           </div>
         </article>
-        <article class="col-12 col-sm-6 col-lg-4">
+        <article class="col-12 col-sm-6 col-lg-4" role="article">
           <!-- Modal -->
           <div class="modal fade" id="cliente-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -150,7 +150,7 @@
             </div>
           </div>
         </article>
-        <article class="col-12 col-sm-6 col-lg-4">
+        <article class="col-12 col-sm-6 col-lg-4" role="article">
           <!-- Modal -->
           <div class="modal fade" id="cliente-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -183,7 +183,7 @@
             </div>
           </div>
         </article>
-        <article class="col-12 col-sm-6 col-lg-4">
+        <article class="col-12 col-sm-6 col-lg-4" role="article">
           <!-- Modal -->
           <div class="modal fade" id="cliente-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -224,7 +224,7 @@
             </div>
           </div>
         </article>
-        <article class="col-12 col-sm-6 col-lg-4">
+        <article class="col-12 col-sm-6 col-lg-4" role="article">
           <!-- Modal -->
           <div class="modal fade" id="cliente-5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -254,7 +254,7 @@
             </div>
           </div>
         </article>
-        <article class="col-12 col-sm-6 col-lg-4">
+        <article class="col-12 col-sm-6 col-lg-4" role="article">
           <!-- Modal -->
           <div class="modal fade" id="cliente-6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -291,7 +291,7 @@
             </div>
           </div>
         </article>
-        <article class="col-12 col-sm-6 col-lg-4">
+        <article class="col-12 col-sm-6 col-lg-4" role="article">
           <!-- Modal -->
           <div class="modal fade" id="cliente-7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -323,7 +323,7 @@
             </div>
           </div>
         </article>
-        <article class="col-12">
+        <article class="col-12" role="article">
           <!-- Modal -->
           <div class="modal fade" id="cliente-8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -358,17 +358,16 @@
         </article>
       </section>
     </main>
-    <footer class="bg-dark py-3 text-white">
-      <div class="container">
-        <nav class="d-flex justify-content-around mb-3 fs-3">
-          <a class href="https://www.twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
-          <a class href="https://www.github.com" target="_blank"><i class="bi bi-github"></i></a>
-          <a class href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"> </i></a>
-          <a class href="https://www.youtube.com" target="_blank"><i class="bi bi-youtube"></i></a>
-          <a class href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
-          <a class href="https://m.me/user" target="_blank"><i class="bi bi-messenger"></i></a>
-          <a class href="https://api.whatsapp.com/send?phone=541111111111" target="_blank"><i class="bi bi-whatsapp"></i></a>
-        </nav>
+    <footer class="bg-dark py-3 text-white" aria-label="pie de página">
+      <nav class="d-flex justify-content-around mb-3 fs-3">
+        <a href="https://www.twitter.com" target="_blank"><i class="bi bi-twitter" aria-label="link twitter"></i></a>
+        <a href="https://www.github.com" target="_blank"><i class="bi bi-github" aria-label="link github"></i></a>
+        <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook" aria-label="link facebook"> </i></a>
+        <a href="https://www.youtube.com" target="_blank"><i class="bi bi-youtube" aria-label="link youtube"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram" aria-label="link instagram"></i></a>
+        <a href="https://m.me/user" target="_blank"><i class="bi bi-messenger" aria-label="link messenger"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=541111111111" target="_blank"><i class="bi bi-whatsapp" aria-label="link whatsapp"></i></a>
+      </nav>
         <p class="d-flex justify-content-center">
           &copy2024 Ana Galvez. Tomado del sitio &nbsp
           <a href="https://www.studiocorvus.com" target="_blank">Studio Corvus</a>
