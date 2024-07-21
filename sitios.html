@@ -27,7 +27,7 @@
 
   <body class="gris-claro">
     <header class="sticky-top">
-      <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+      <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark" role="navigation">
         <div class="container">
           <a class="navbar-brand" href="index.html"><img src="./img/bad-dog-studio-logo.png" alt="Logo bad dog" /></a>
           <button
@@ -41,11 +41,11 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-lg-auto">
-              <li class="nav-item">
+            <ul class="navbar-nav ms-lg-auto" role="list">
+              <li class="nav-item" role="listitem">
                 <a class="nav-link" href="index.html">Inicio</a>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown" role="listitem">
                 <a
                   class="nav-link dropdown-toggle active"
                   aria-current="page"
@@ -55,25 +55,25 @@
                   aria-expanded="false">
                   Sitios
                 </a>
-                <ul class="dropdown-menu">
-                  <li>
+                <ul class="dropdown-menu" role="list">
+                  <li role="listitem">
                     <a class="dropdown-item" href="sitios.html#ultimosproyectos">Últimos proyectos</a>
                   </li>
-                  <li>
+                  <li role="listitem">
                     <a class="dropdown-item" href="sitios.html#singlepage">SinglePage</a>
                   </li>
-                  <li>
+                  <li role="listitem">
                     <a class="dropdown-item" href="sitios.html#multipage">MultiPage</a>
                   </li>
                 </ul>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" role="listitem">
                 <a class="nav-link" href="clientes.html">Clientes</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" role="listitem">
                 <a class="nav-link" href="comencemos.html">Comencemos</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" role="listitem">
                 <a class="nav-link" href="contacto.html">¿Interesado?</a>
               </li>
             </ul>
@@ -82,10 +82,10 @@
       </nav>
     </header>
     <main>
-      <section id="ultimosproyectos" class="container-fluid text-center mt-5">
+      <section id="ultimosproyectos" class="container-fluid text-center mt-5" role="banner">
         <h1>Sitios Web 100% Responsivos</h1>
         <p class="fs-5">Desarrollo sitios de una sóla y de múltiples páginas.</p>
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" aria-label="carrousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="./img/work-slide-1.jpg" class="d-block w-100" alt="slider 1" />
@@ -116,17 +116,17 @@
           </button>
         </div>
       </section>
-      <section id="singlepage" class="container-fluid min-vh-100 img-fondo" style="--bg-fondo: url(../img/site-singlepage.jpg)">
+      <section id="singlepage" class="container-fluid min-vh-100 img-fondo" style="--bg-fondo: url(../img/site-singlepage.jpg)" aria-label="sección single page">
         <div class="ancho-img container gris-claro min-vh-100 d-flex align-items-center">
           <div class="col-lg-6 offset-lg-6">
-            <a href="/contacto.html" class="btn btn-success fs-4 mb-5">Desde $400 USD</a>
+            <a href="/contacto.html" role="button" class="btn btn-success fs-4 mb-5">Desde $400 USD</a>
             <h2>Sitio de una sola página</h2>
             <span>El precio puede ser más bajo (o más alto) dependiendo de los requisitos de su proyecto.</span>
             <p class="my-5 fs-5">
               Una <strong>sola página o página de destino</strong> es un sitio web que consta de una página. Perfecto para
               presentar a tu empresa, organización, producto o servicio de una manera hermosa y moderna en Internet.
             </p>
-            <a href="/contacto.html" class="solicitar fs-3 fw-bold">Solicite una cotización ahora ></a>
+            <a href="/contacto.html" role="button" class="solicitar fs-3 fw-bold">Solicite una cotización ahora ></a>
             <div class="row mt-4 d-flex">
               <div class="col-6 mt-3 d-flex flex-column">
                 <i class="bi bi-check-lg pb-3">Sitio web de una sola página.</i>
@@ -142,17 +142,17 @@
           </div>
         </div>
       </section>
-      <section id="multipage" class="container-fluid min-vh-100 img-fondo" style="--bg-fondo: url(../img/site-multipage.jpg)">
+      <section id="multipage" class="container-fluid min-vh-100 img-fondo" style="--bg-fondo: url(../img/site-multipage.jpg)" aria-label="sección multi page">
         <div class="ancho-img container gris-claro min-vh-100 d-flex align-items-center">
           <div class="col-lg-6">
-            <a href="/contacto.html" class="btn btn-success fs-4 mb-5">Desde $1000 USD</a>
+            <a href="/contacto.html" role="button" class="btn btn-success fs-4 mb-5">Desde $1000 USD</a>
             <h2>Sitio multipágina</h2>
             <span>El precio puede ser más bajo (o más alto) dependiendo de los requisitos de su proyecto.</span>
             <p class="my-5 fs-5">
               Un <strong>sitio web de varias páginas</strong> consta de dos o más páginas. Este formato es útil si tiene ciertos
               elementos que desea mantener separados por páginas y urls diferentes.
             </p>
-            <a href="/contacto.html" class="solicitar fs-3 fw-bold">Solicite una cotización ahora ></a>
+            <a href="/contacto.html" role="button" class="solicitar fs-3 fw-bold">Solicite una cotización ahora ></a>
             <div class="row mt-4 d-flex">
               <div class="col-6 mt-3 d-flex flex-column">
                 <i class="bi bi-check-lg pb-3">2 a 6 páginas.</i>
@@ -169,16 +169,16 @@
         </div>
       </section>
     </main>
-    <footer class="bg-dark py-3 text-white">
+    <footer class="bg-dark py-3 text-white" aria-label="pie de página">
       <div class="container">
         <nav class="d-flex justify-content-around mb-3 fs-3">
-          <a class="" href="https://www.twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
-          <a class="" href="https://www.github.com" target="_blank"><i class="bi bi-github"></i></a>
-          <a class="" href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"> </i></a>
-          <a class="" href="https://www.youtube.com" target="_blank"><i class="bi bi-youtube"></i></a>
-          <a class="" href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
-          <a class="" href="https://m.me/user" target="_blank"><i class="bi bi-messenger"></i></a>
-          <a class="" href="https://api.whatsapp.com/send?phone=541111111111" target="_blank"><i class="bi bi-whatsapp"></i></a>
+          <a href="https://www.twitter.com" target="_blank"><i class="bi bi-twitter" aria-label="link twitter"></i></a>
+          <a href="https://www.github.com" target="_blank"><i class="bi bi-github" aria-label="link github"></i></a>
+          <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook" aria-label="link facebook"> </i></a>
+          <a href="https://www.youtube.com" target="_blank"><i class="bi bi-youtube" aria-label="link youtube"></i></a>
+          <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram" aria-label="link instagram"></i></a>
+          <a href="https://m.me/user" target="_blank"><i class="bi bi-messenger" aria-label="link messenger"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=541111111111" target="_blank"><i class="bi bi-whatsapp" aria-label="link whatsapp"></i></a>
         </nav>
         <p class="d-flex justify-content-center">
           &copy2024 Ana Galvez. Tomado del sitio &nbsp
